@@ -1,1 +1,36 @@
 # AddressBook
+This project developed for Yasar University - SE4458 Assignment1.  
+The **Goal** is using the to-do app template, create and deploy a simple REST API application
+
+## Description
+This Address Book API allows
+* Create contact
+* Edit existing contact
+* Delete contact
+* Search by name, email or tag.
+
+## Tech Stack
+Tech stacks I use when developing
+* **Framework:** ASP.NET Core Web API (.NET 8)
+* **Language:** C#
+* **Database:** In-Memory Database
+* **API Documentation:** Swagger UI
+* **Deployment:** Azure App Service
+
+## Deployment
+[Swagger Url](#)
+
+## Source Code
+[Github](#)
+
+## API Endpoints
+|  **Method**  |         **Endpoint**         |       **Description**        | 
+|--------------|------------------------------|------------------------------|
+|     GET      |     /api/AddressBookItems    |       Get all contacts       |
+|     GET      |  /api/AddressBookItems/{id}  |      Get a contact by id     |
+|     GET      | /api/AddressBookItems/search | Search by name, email or tag |
+|     PUT      |  /api/AddressBookItems/{id}  |  Update an existing contact  |
+|     POST     |    /api/AddressBookItems     |       Create a contact       |
+|    DELETE    |  /api/AddressBookItems/{id}  |       Delete a contact       |
+
+## Assumptions
