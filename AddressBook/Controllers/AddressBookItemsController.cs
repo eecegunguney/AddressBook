@@ -98,6 +98,28 @@ namespace AddressBook.Controllers
 
             return NoContent();
         }
+        //SEARCH : api/AddressBookItems/search?query
+        [HttpGet("search")]
+        public async Task<ActionResult> SearchAdressBookItem([FromQuery] string query)
+        {
+            if(query == null)
+            {
+                return NotFound();
+            }
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return BadRequest();
+            }
+            var results = _context.AddressBookItems.Where(r =>
+                r.name.Contains(query) ||
+                r.email.Contains(query) ||
+                r.tag.Contains(query)).ToList();
+            if(results.Count == 0)
+            {
+                return NotFound("No Matching Records");
+            }
+            return Ok(results);
+        }
 
         private bool AddressBookItemExists(int id)
         {
