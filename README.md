@@ -18,6 +18,7 @@ Tech stacks I use when developing
 * **Deployment:** Azure App Service
 
 ## Design
+```
 AddressBook/
 │
 ├── Controllers/
@@ -28,6 +29,7 @@ AddressBook/
 │   └── AddressBookItem.cs
 │
 └── Program.cs
+```
 
 ## API Endpoints
 |  **Method**  |         **Endpoint**         |       **Description**        | 
