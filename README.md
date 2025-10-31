@@ -42,7 +42,7 @@ AddressBook/
 |    DELETE    |  /api/AddressBookItems/{id}  |       Delete a contact       |
 
 ## Deployment
-[Swagger Url](#)
+[Swagger Url](https://localhost:7175/swagger/index.html)
 
 ## Source Code
 [Github](https://github.com/eecegunguney/AddressBook)
