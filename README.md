@@ -1,5 +1,5 @@
 # AddressBook
-This project developed for Yasar University - SE4458 Assignment1.  
+This project developed for Yasar University - SE4458 Assignment2.  
 The **Goal** is using the to-do app template, create and deploy a simple REST API application.
 
 ## Description
@@ -42,7 +42,7 @@ AddressBook/
 |    DELETE    |  /api/AddressBookItems/{id}  |       Delete a contact       |
 
 ## Deployment
-[Swagger]([https://localhost:7175/swagger/index.html](https://addressbook21070001014-fshadvdcecaaazf7.francecentral-01.azurewebsites.net/swagger/index.html))
+[Swagger](https://addressbook21070001014-fshadvdcecaaazf7.francecentral-01.azurewebsites.net/swagger/index.html)
 
 ## Source Code
 [Github](https://github.com/eecegunguney/AddressBook)
